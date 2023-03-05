@@ -127,6 +127,8 @@ surv.bart <- function(
     ## }
 
     if(length(x.test)>0) {
+        times <- unique(sort(x.test[ , 1]))
+        K     <- length(times)
         post$tx.test <- x.test
         H <- nrow(x.test)/K ## the number of different settings
 
