@@ -177,7 +177,7 @@ gbart=function(
                 x.test,    #p*np test data x
                 ntree,
                 numcut,
-                ndpost*keepevery,
+                ndpost, #*keepevery,
                 nskip,
                 keepevery,
                 power,
